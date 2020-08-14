@@ -1,0 +1,131 @@
+[
+  {
+    "type": "Normal",
+    "strong-against": [],
+    "weak-against": ["Rock", "Ghost", "Steel"],
+    "resistant-to": ["Ghost"],
+    "vulnerable-to": ["Fighting"]
+  },
+  {
+    "type": "Fighting",
+    "strong-against": ["Normal", "Rock", "Steel", "Ice", "Dark"],
+    "weak-against": ["Flying", "Poison", "Psychic", "Bug", "Ghost", "Fairy"],
+    "resistant-to": ["Rock", "Bug", "Dark"],
+    "vulnerable-to": ["Flying, Psychic, Fairy"]
+  },
+  {
+    "type": "Flying",
+    "strong-against": ["Fighting", "Bug", "Grass"],
+    "weak-against": ["Rock", "Steel", "Electric"],
+    "resistant-to": ["Fighting", "Ground", "Bug", "Grass"],
+    "vulnerable-to": ["Rock", "Electric", "Ice"]
+  },
+  {
+    "type": "Poison",
+    "strong-against": ["Grass", "Fairy"],
+    "weak-against": ["Poison", "Ground", "Rock", "Ghost", "Steel"],
+    "resistant-to": ["Fighting", "Poison", "Grass", "Fairy"],
+    "vulnerable-to": ["Ground", "Psychic"]
+  },
+  {
+    "type": "Ground",
+    "strong-against": ["Poison", "Rock", "Steel", "Fire", "Electric"],
+    "weak-against": ["Flying", "Bug", "Grass"],
+    "resistant-to": ["Poison", "Rock", "Electric"],
+    "vulnerable-to": ["Water", "Grass", "Ice"]
+  },
+  {
+    "type": "Rock",
+    "strong-against": ["Flying", "Bug", "Fire", "Ice"],
+    "weak-against": ["Fighting", "Ground", "Steel"],
+    "resistant-to": ["Normal", "Flying", "Poison", "Fire"],
+    "vulnerable-to": ["Fighting", "Ground", "Steel", "Water", "Grass"]
+
+  },
+  {
+    "type": "Bug",
+    "strong-against": ["Grass", "Psychic", "Dark"],
+    "weak-against": ["Fighting", "Flying", "Poison", "Ghost", "Steel", "Fire", "Fairy"],
+    "resistant-to": ["Fighting", "Ground", "Grass"],
+    "vulnerable-to": ["Flying", "Rock", "Fire"]
+  },
+  {
+    "type": "Ghost",
+    "strong-against": ["Ghost", "Psychic"],
+    "weak-against": ["Normal", "Dark"],
+    "resistant-to": ["Normal", "Fighting", "Poison", "Bug"],
+    "vulnerable-to": ["Ghost", "Dark"]
+
+  },
+  {
+    "type": "Steel",
+    "strong-against": ["Rock", "Ice", "Fairy"],
+    "weak-against": ["Steel", "Fire", "Water", "Electric"],
+    "resistant-to": ["Normal", "Flying", "Poison", "Rock", "Bug", "Steel", "Grass", "Psychic", "Ice", "Dragon", "Fairy"],
+    "vulnerable-to": ["Fighting", "Ground", "Fire"]
+
+  },
+  {
+    "type": "Fire",
+    "strong-against": ["Bug", "Steel", "Grass", "Ice"],
+    "weak-against": ["Rock", "Fire", "Water", "Dragon"],
+    "resistant-to": ["Bug", "Steel", "Fire", "Grass", "Ice"],
+    "vulnerable-to": ["Ground", "Rock", "Water"]
+  },
+  {
+    "type": "Water",
+    "strong-against": ["Ground", "Rock", "Fire"],
+    "weak-against": ["Water", "Grass", "Dragon"],
+    "resistant-to": ["Steel", "Fire", "Water", "Ice"],
+    "vulnerable-to": ["Grass", "Electric"]
+  },
+  {
+    "type": "Grass",
+    "strong-against": ["Ground", "Rock", "Water"],
+    "weak-against": ["Flying", "Poison", "Bug", "Steel", "Fire", "Grass", "Dragon"],
+    "resistant-to": ["Ground", "Water", "Grass", "Electric"],
+    "vulnerable-to": ["Flying", "Poison", "Bug", "Fire", "Ice"]
+  },
+  {
+    "type": "Electric",
+    "strong-against": ["Flying", "Water"],
+    "weak-against": ["Ground", "Grass", "Electric", "Dragon"],
+    "resistant-to": ["Flying", "Steel", "Electric"],
+    "vulnerable-to": ["Ground"]
+  },
+  {
+    "type": "Psychic",
+    "strong-against": ["Fighting", "Poison"],
+    "weak-against": ["Steel", "Psychic", "Dark"],
+    "resistant-to": ["Fighting", "Psychic"],
+    "vulnerable-to": ["Bug", "Ghost", "Dark"]
+  },
+  {
+    "type": "Ice",
+    "strong-against": ["Flying", "Ground", "Grass", "Dragon"],
+    "weak-against": ["Steel", "Fire", "Water", "Ice"],
+    "resistant-to": ["Ice"],
+    "vulnerable-to": ["Fighting", "Rock", "Steel", "Fire"]
+  },
+  {
+    "type": "Dragon",
+    "strong-against": ["Dragon"],
+    "weak-against": ["Steel", "Fairy"],
+    "resistant-to": ["Fire", "Water", "Grass", "Electric"],
+    "vulnerable-to": ["Ice", "Dragon", "Fairy"]
+  },
+  {
+    "type": "Fairy",
+    "strong-against": ["Fighting", "Dragon", "Dark"],
+    "weak-against": ["Poison", "Steel", "Fire"],
+    "resistant-to": ["Fighting", "Bug", "Dragon", "Dark"],
+    "vulnerable-to": ["Poison", "Steel"]
+  },
+  {
+    "type": "Dark",
+    "strong-against": ["Ghost", "Psychic"],
+    "weak-against": ["Fighting", "Dark", "Fairy"],
+    "resistant-to": ["Ghost", "Psychic", "Dark"],
+    "vulnerable-to": ["Fighting", "Bug", "Fairy"]
+  }
+]
